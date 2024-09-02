@@ -1,0 +1,676 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Report for Homebuyers</title>
+    <style> 
+    
+    table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+    
+    th, td {
+            border: 1px solid black; /* セルの境界線を1pxの黒に設定 */
+            padding: 8px; /* セルの内側の余白を8pxに設定 */
+            text-align: left; /* セルのテキストを左揃えに設定 */
+            font-size: 14px;
+        }
+       
+    th {
+            text-align: center; /* セルのテキストを中央揃えに設定 */
+            background-color: #f2f2f2; /* ヘッダー行の背景色を灰色に設定 */
+            font-size: 14px;
+        }
+    
+     h1 {
+            font-weight: bold; /* フォントの太さを太字に設定 */
+            font-family: Arial, sans-serif;
+            background-color: #d3d3d3; /* 背景色をグレーに設定 */
+            padding: 10px; /* 内側の余白を設定 */
+            font-size: 30px;
+        }
+     h2 {
+            font-weight: bold; /* フォントの太さを太字に設定 */
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+        } 
+     h3 {
+            font-weight: bold; /* フォントの太さを太字に設定 */
+            font-family: Arial, sans-serif;
+            font-size: 22px;
+        } 
+     h4 {
+            font-weight: bold; /* フォントの太さを太字に設定 */
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+        ul {
+            list-style-type: circle; /* リストアイテムのマーカーを正方形に変更 */
+        }
+        li {
+            font-size: 18px; /* リストアイテムのフォントサイズを18pxに変更 */
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px; /* リストアイテム間の下の余白を10pxに設定 */
+        }
+
+     p {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        } 
+    iframe {
+        border: 0; /* 周囲の枠を無くす */
+    }
+
+    </style>
+</head>
+
+<body>
+    <h1>Summary Report for Homebuyers</h1>
+
+
+    <h2>Location: Whitehall Waterfront, 2 Riverside Way, Leeds LS1 4EH</h2>
+    <p>This report aims to provide useful information for houmebuyers' decision-making.<br> It summarises the planning applications within 250m around the property and relevant environmental assessments.</p>    
+
+    
+    
+    <hr>　　<!-- This is a divider -->
+    <h3>1.　Introduction</h3>    
+    <p><br><br>Whitehall Waterfront is located in the heart of Leeds, a bustling city in West Yorkshire, England. It is situated along the River Aire, providing beautiful views and easy access to the waterfront. The neighbourhood is surrounded by a variety of amenities, including grocery stores such as Tesco Express and Sainsbury's Local, healthcare facilities like Leeds General Infirmary, and schools such as Leeds City Academy and Leeds Beckett University. The area is also home to several restaurants, bars, and shops, making it a convenient and lively place to live. Additionally, the location offers easy access to public transportation, with several bus stops and train stations nearby.</p>
+    <p>Visit <a href="https://www.rightmove.co.uk/properties/142289591#/?channel=RES_NEW">"Rightmove" website</a> for the detials of property information.</p>
+    <img src="data/pic_property1.jpeg" alt="Property Image" width="750">
+
+    
+    <hr>　　<!-- This is a divider -->
+    <h3>2.　Planning Applications within 250m of the property</h3>    
+    <p>This section elaborates the planning applications around the property, which may increase/decrease its value.</p>
+    <iframe src="applications_property1.html" height="600" width="1000"></iframe>
+    <iframe src="Cat_status_bar.html" height="600" width="1000"></iframe>
+
+    
+    <h4>2-1. Overall Trend</h4>    
+    <p></p>    
+    <ul>
+        <li>A significant trend in the planning applications around the Leeds property is the conversion of office spaces into different uses such as accountancy training facilities, apartments, and drinking establishments, reflecting a shift in the area's utilization.</li>
+        <li>There is a notable focus on mixed-use developments combining residential units with commercial spaces, indicating a desire for diverse and integrated urban environments.</li>
+        <li>Infrastructure enhancements like new car parks, external louvres, and landscaping projects are prevalent, suggesting a commitment to improving the area's amenities and aesthetics.</li>
+    </ul>
+
+    
+    <h4>2-2.　Types of Planning Applications</h4>
+    <img src="data/Application_type.jpeg" alt="Value_range" width="500">
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Category</th>
+      <th>Item</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Commercial</td>
+      <td>Office Development<br>Commercial Development<br>Conversion to Office<br>Office Building</td>
+    </tr>
+    <tr>
+      <td>Education</td>
+      <td>Conversion to Accountancy Training Facility</td>
+    </tr>
+    <tr>
+      <td>Infrastructure</td>
+      <td>Electrical Facility/Structure<br>Flood Defence<br>Car Park<br>Installation of a External Louvre<br>Additional Roof Top Plant and Equipment<br>Installation of Four New External Louvres<br>Use of Land for Car Parking<br>Pocket Park<br>Creation of Riverside Walk</td>
+    </tr>
+    <tr>
+      <td>Other</td>
+      <td>Demolition<br>Landscaping<br>Installation of Lighting<br>Replacement of Glazed Panel with Louvred Panel<br>Listed Building Repairs and Alterations<br>Determination for Demolition of Bin Store<br>Installation of External Louvre<br>Replacement External Lighting Scheme<br>Works to Form a Pocket Park<br>Creation of Riverside Walk</td>
+    </tr>
+    <tr>
+      <td>Residential</td>
+      <td>Conversion to 6 Apartments<br>Mixed Use Development (783 Units)<br>Mixed Use Development (245 Units)<br>463 Flats<br>488 Flats<br>Mixed Use Development (357 Units)<br>Mixed Use Development (348 Units and 1763 Beds)</td>
+    </tr>
+    <tr>
+      <td>Sport and Leisure</td>
+      <td>Conversion to Drinking Establishment<br>Conversion to Bar</td>
+    </tr>
+  </tbody>
+</table>
+    <p>The presence of a variety of planning applications, including residential, commercial, education, infrastructure, sport and leisure, and other developments, suggests a dynamic and diverse area with ongoing growth and transformation. Potential homebuyers can expect a mix of residential properties, commercial spaces, educational facilities, and infrastructure improvements in the neighborhood, indicating a vibrant and evolving community with various amenities and opportunities.</p>
+
+    
+    
+    <h4>2-3.　Approval Status of Planning Applications</h4>
+    <img src="data/Application_status.jpeg" alt="Value_range" width="500">
+    <p>Around the Leeds property, the planning applications show a mix of approval statuses. The majority of applications have Detailed Plans Approved, indicating active development in the area. There are also applications with Detailed Plans Submitted, suggesting upcoming projects. Outline Plans Approved are present but to a lesser extent, indicating future developments with broader plans already accepted. However, there are a few applications that have been Withdrawn, signaling some projects that were not pursued.<br>Overall, the prevalence of Detailed Plans Approved suggests a steady pace of development and potential community changes in the area. This trend indicates ongoing growth and improvement, making it an area to watch for potential homebuyers looking for a neighborhood with evolving infrastructure and amenities.</p>
+    
+    <h4>2-4.　Economic Values of Planning Applications</h4>
+    <img src="data/value_range.jpeg" alt="Value_range" width="500">
+    <p>The planning applications near the Leeds property you're interested in suggest a range of economic investments, with 'value_max' figures varying from 100 to 150,000. Here's a breakdown of the economic impact and potential implications for homebuyers:</p>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Item</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low to Medium-Scale Investments (100 - 500)</td>
+      <td>Several projects fall within this range, indicating smaller-scale developments such as change of use, demolition, or minor construction works. While individually these projects may not significantly impact property values, collectively they contribute to the overall improvement and development of the area.</td>
+    </tr>
+    <tr>
+      <td>Medium to High-Scale Investments (25,000 - 55,000)</td>
+      <td>Projects with values in this range, such as the construction of residential blocks, mixed-use developments, and office buildings, suggest more substantial investments. These developments can enhance the neighborhood's infrastructure, amenities, and overall attractiveness, potentially leading to increased property values in the vicinity.</td>
+    </tr>
+    <tr>
+      <td>Significant Investments (80,000 - 150,000)</td>
+      <td>The highest 'value_max' projects, like the mixed-use development with 783 dwellings and purpose-built student accommodation, represent major investments in the area. These large-scale projects have the potential to significantly transform the neighborhood, attract new residents, businesses, and amenities, and drive up property values over time.</td>
+    </tr>
+  </tbody>
+</table>
+    <p>In terms of appeal to homebuyers, the presence of diverse developments catering to residential, commercial, and leisure needs can make the area more attractive. Potential benefits for homebuyers include:<br>- **Improved Infrastructure:** New developments can enhance local infrastructure, transportation, and public spaces, making the neighborhood more livable and convenient.<br>- **Increased Amenities:** The addition of commercial spaces, restaurants, and recreational facilities can enrich the area's lifestyle offerings, adding value to properties.<br>- **Rising Property Values:** Significant investments often lead to an increase in property values over time, offering potential returns on investment for homebuyers.<br>Overall, the mix of economic values from the planning applications near the Leeds property signals growth opportunities, neighborhood enhancement, and increased desirability for potential homebuyers looking to invest in a dynamic and evolving area.</p>
+
+
+
+    <hr>　　<!-- This is a divider -->
+    <h3>3.　Environmental Assessments</h3>    
+    <p>This section elaborates the environmental aspects around the property.</p>    
+    <h4>3-1.　Contaminated Land</h4>    
+    <p>Contaminated Land in the area:<br>- The title is more than 250 metres from any sites that have been designated as Contaminated Land by a local authority.</p>
+    <h4>3-2.　Flood Risk</h4>    
+    <p>The flood risk in this area is significant. Here is a list of flood risk factors identified:<br><br>1. Significant flood hazards were identified which may present serious risk to life, property, and possessions.<br>2. Some flood hazards were identified which may present risk to property and possessions.<br>3. Some flood hazards were identified which may present risk to property and possessions.<br>4. The property is within an area which has flooded in the past.<br>5. When a title is within an area benefitting from flood defences (ABFD), the risk of Fluvial or Tidal flooding could be significantly reduced. Review this map to determine whether the title is within an ABFD.</p>
+    <h4>3-3.　Planning Constraints</h4>    
+    <p>Here is a list of Planning Constraints in the area based on the information provided:<br><br>1. Distance from active and former landfills.<br>2. Distance from petrol or fuel stations.<br>3. Designated Contaminated Land by a local authority.<br>4. Special Sites designated by the Environment Agency.<br>5. Discharge of effluent into Controlled Waters.<br>6. Proximity to Control of Major Accident Hazard (COMAH) sites.<br>7. Licensed industrial land use proximity.<br>8. Former military sites leading to liability.<br>9. Flood hazards and defences.<br>10. Protected natural areas such as Green Belt, AONB, National Parks, etc.<br>11. Proximity to listed buildings, scheduled monuments, ancient woodlands, etc.<br>12. Transportation infrastructure like railways and power lines.<br>13. Ground conditions and potential ground movement risks.<br>14. Geological factors like soluble rocks, slope instability, etc.<br>15. Climate change implications.<br>16. Sea level rise and inundation risks.<br>17. Energy Performance Certificate (EPC) rating.</p>
+    <h4>3-4.　Radon</h4>    
+    <p>Here is a list of information regarding Radon levels in the area:<br><br>1. The title is in an area where fewer than 1% of homes are estimated to be at or above the Action Level. The title is not in a Radon Action Area.<br>2. The property is not near an area where oil and gas exploration and production is licensed.<br><br>These points indicate that the Radon levels in the area are not of significant concern based on the information provided.</p>
+    <h4>3-5.　Transportation</h4>    
+    <p>Here is a list of the Transportation facilities in the area:<br><br>1. The property is within 250 meters of a railway station or railway line.<br>2. The property is more than 250 meters away from a railway station or track along the Elizabeth Line.<br>3. The property is more than 250 meters away from a London Underground station or line.<br>4. The property is more than 300 meters away from a proposed HS2 station or line.<br>5. The property is more than 100 meters from the nearest National Grid cable, overhead line, substation, or tower.</p>
+    <h4>3-6.　Energy and Infrastructure</h4>    
+    <p>Here is a list of Energy and Infrastructure facilities in the area:<br><br>1. The property is more than 1km from any active landfill.<br>2. The property is more than 500 metres from any reported former landfill.<br>3. The property is more than 20 metres from an active petrol or fuel station.<br>4. The property is more than 10 metres from a former petrol or fuel station.<br>5. The property is more than 250 metres from any sites designated as Contaminated Land by a local authority.<br>6. The property is more than 250 metres from any sites designated as a Special Site by the Environment Agency.<br>7. The property is more than 50 metres away from a licensed consent for discharging effluent into Controlled Waters.<br>8. The property is more than 50 metres from any major or significant pollution incidents.<br>9. The property is more than 10 metres from a licensed industrial land use.<br>10. The property is not near an area where oil and gas exploration and production is licensed.<br>11. The property is more than 250 metres away from a power station (includes nuclear power stations).<br>12. The property is more than 250 metres away from a current or proposed renewable energy site.</p>
+    <h4>3-7.　Ground stability</h4>    
+    <p>Here is a list of the ground stability conditions in the area:<br><br>1. Ground conditions predominantly non-plastic or low plasticity.<br>2. Possibility of running sand problems after major changes in ground conditions.<br>3. Significant or very significant potential for compressibility problems.<br>4. No or very low indicators for collapsible deposits identified.<br>5. Potential for ground movement in the area due to artificial or made ground.<br>6. Soluble rocks are not present in the search area.<br>7. No indicators for slope instability identified.<br><br>These conditions provide an overview of the potential ground stability issues in the area that may impact properties.</p>
+    <h4>3-8.　Cimate change</h4>    
+    <p>The area where the property is located is not significantly affected by climate change impacts such as flooding, pollution, or environmental hazards. There are no major risks related to the property's location in terms of potential dangers from nearby industrial sites, flood hazards, or other environmental concerns. It is also not expected to be inundated by sea water before the year 2100. Overall, the property seems to be in a relatively safe location with minimal climate change impact risks.</p>
+
+    
+    <hr>　　<!-- This is a divider -->
+    <h3>4.　Summary</h3>
+    <h4>4-1. Planning Applications</h4>
+    <p>Recommendation:<br>Considering the diverse mix of developments, focus on commercial projects, and significant approved planning applications nearby, buying a house in this Leeds area is recommended. The area's transformation towards vibrant mixed-use neighborhoods with enhanced amenities and commercial spaces could potentially increase the property's value and appeal to homebuyers. Keep an eye on the ongoing and upcoming developments to leverage the positive changes in the neighborhood for potential future gains.</p> 
+    <h4>4-2. Environmental Assessments</h4>
+    <p>The property is situated in an area with no immediate flood risk concerns but is within a flood zone that has experienced flooding in the past. It is not located near any contaminated land or major pollution incidents, and is not within proximity to any significant transportation infrastructure that may impact its development potential. The property is not at risk of being inundated by sea water before 2100 based on current climate change projections.</p> 
+    
+    <hr>　　<!-- This is a divider -->
+    <h3>5.　Reference Information</h3>    
+    <h4>5-1.　Planning Applications within 250m around the Property</h4>    
+    <p>The table below describes all the planning applications within 250m around the property.</p>    
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>planning_id</th>
+      <th>proposal</th>
+      <th>stage</th>
+      <th>mnb_start_date</th>
+      <th>mnb_end_date</th>
+      <th>heading</th>
+      <th>category</th>
+      <th>value_max</th>
+      <th>link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4585153</td>
+      <td>15724615</td>
+      <td>Construction of an office building with associated facilities, parking and landscaping</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-11-06</td>
+      <td>NaN</td>
+      <td>Office</td>
+      <td>COMMERCIAL</td>
+      <td>25000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=S2LZA6JBK8900&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2167586</td>
+      <td>13360210</td>
+      <td>Reserved Matters application for 357 apartments in 14 storey and 21 storey blocks, restaurant and associated landscaping and public space</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Mixed Use Development (357 Units)</td>
+      <td>COMMERCIAL</td>
+      <td>43000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=P7MJELJBH7200</td>
+    </tr>
+    <tr>
+      <td>2715225</td>
+      <td>14022198</td>
+      <td>Installation of a external louvre</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Installation of a external louvre</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=PZTCQKJBFTC00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4156328</td>
+      <td>15486344</td>
+      <td>Installation of four new external louvres to the western elevation</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Installation of four new external lou...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RQ2EBQJB30600&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3576743</td>
+      <td>14900244</td>
+      <td>Full planning application for two residential blocks at 26 and 31 storey's high, with car parking, landscaping and associated facilities</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>488 Flats</td>
+      <td>RESIDENTIAL</td>
+      <td>50000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=R0JRN6JB2O200&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2167617</td>
+      <td>13360242</td>
+      <td>Two residential blocks at 17 and 21 storey's high, comprising of 463 flats with linked podium, car parking, landscaping and associated facilities</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>463 Flats</td>
+      <td>RESIDENTIAL</td>
+      <td>55000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=P7DA3DJBKZS00</td>
+    </tr>
+    <tr>
+      <td>3976963</td>
+      <td>15305277</td>
+      <td>Creation of riverside walk and associated landscaping works</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Landscaping</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RHXI7TJBIMF00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4512241</td>
+      <td>15244870</td>
+      <td>Construction of new buildings for residential (C3), purpose-built student accommodation (Sui Generis) and commercial uses (Class E),  landscaping, servicing, internal access road, car parking, modifications to highways access, site clearance and associate</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-09-28</td>
+      <td>NaN</td>
+      <td>Mixed Use Development (348 Units and 1763 Beds)</td>
+      <td>COMMERCIAL</td>
+      <td>140000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RF07HGJB2O200&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3088908</td>
+      <td>14402435</td>
+      <td>Works to form a pocket park , including landscaping, planting, footpath, and seating areas</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Landscaping</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=QHRNEKJBJKO00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2756829</td>
+      <td>14063967</td>
+      <td>Application for enabling works to facilitate the development of the site comprising demolition of existing marketing suite building and main site perimeter walls, archaeological recording, service diversions and connections, groundworks and remediation wo</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Demolition</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=Q1KE6PJBJH700&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2569414</td>
+      <td>13875648</td>
+      <td>Partial demolition of structures and the erection of two buildings ranging from five to eleven storeys, comprising 245No. residential apartments (Use Class C3) with flexible commercial uses at ground floor level (Use Class A1, A2, A3, A4, D2 and/or B1), r</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Mixed Use Development (245 Units)</td>
+      <td>COMMERCIAL</td>
+      <td>31000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=PSX7FVJBMR000&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4467047</td>
+      <td>15551881</td>
+      <td>Reserved Matters application for Globe Square Public Realm, including access, appearance, landscaping, layout and scale relating to previous approval 17/06455/FU</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-08-31</td>
+      <td>NaN</td>
+      <td>Landscaping</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RTLVGQJBI2T00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3607637</td>
+      <td>14931453</td>
+      <td>Use of cleared site for transitional car parking to serve the adjoining office and commercial development on Globe Point, Globe Square, Beck Court and Temple Arches</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Car Park</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=R1XNJ2JBMRT00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2645521</td>
+      <td>13952235</td>
+      <td>Application for enabling works to facilitate the development of the site comprising servicing diversion and removal of underground flues, demolition of existing walls, demolition of concrete slabs, masonry and basement, canal remedial works, earthworks an</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Demolition</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=PW40QTJBL2X00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4467047</td>
+      <td>15551881</td>
+      <td>Reserved Matters application for Globe Square Public Realm, including access, appearance, landscaping, layout and scale relating to previous approval 17/06455/FU</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-08-31</td>
+      <td>NaN</td>
+      <td>Commercial Development</td>
+      <td>COMMERCIAL</td>
+      <td>150000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RTLVGQJBI2T00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2643952</td>
+      <td>13950662</td>
+      <td>Hybrid application for full planning permission for the erection of 783 dwellings with 2,315 m2 of commercial uses (A1, A2, A3, A4, A5, B1, D1 and D2) and landscaped public realm, outline application for an associated 'hub' building in a flexible commerci</td>
+      <td>OUTLINE PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Mixed Use Development (783 Units)</td>
+      <td>COMMERCIAL</td>
+      <td>80000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=PRUH0IJBHLB00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4512241</td>
+      <td>15244870</td>
+      <td>Construction of new buildings for residential (C3), purpose-built student accommodation (Sui Generis) and commercial uses (Class E),  landscaping, servicing, internal access road, car parking, modifications to highways access, site clearance and associate</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-09-28</td>
+      <td>NaN</td>
+      <td>Mixed Use Development (348 Units and 1763 Beds)</td>
+      <td>COMMERCIAL</td>
+      <td>140000.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RF07HGJB2O200&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4183586</td>
+      <td>13348868</td>
+      <td>Change of use of office to six apartments</td>
+      <td>WITHDRAWN</td>
+      <td>2023-04-03</td>
+      <td>NaN</td>
+      <td>Conversion to 6 Apartments</td>
+      <td>RESIDENTIAL</td>
+      <td>400.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=P7H9VHJB0D700</td>
+    </tr>
+    <tr>
+      <td>4466580</td>
+      <td>15663302</td>
+      <td>Use of land for car parking with associated access</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-08-30</td>
+      <td>NaN</td>
+      <td>Car Park</td>
+      <td>INFRASTRUCTURE</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RZF4PPJBFXX00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4000668</td>
+      <td>15329170</td>
+      <td>Determination for 5G 20m telecoms installation, H3G street pole and additional equipment cabinets</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Electrical Facility/Structure</td>
+      <td>INFRASTRUCTURE</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RJOQR6JB2QV00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4037501</td>
+      <td>15366345</td>
+      <td>Recladding of existing residential building</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Recladding of existing residential bu...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RKEURMJBJ9300&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3913866</td>
+      <td>15241537</td>
+      <td>Installation of a replacement external lighting scheme with associated landscaping works</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Installation of Lighting</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RDF040JBM8100&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3576770</td>
+      <td>14900271</td>
+      <td>Listed building application to carryout works to construct and 'tie in' the new flood defence wall on the eastern bank of the River Aire to the eastern end of the Grade II listed railway viaduct</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Flood Defence</td>
+      <td>INFRASTRUCTURE</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=R078BYJBMBM00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3390885</td>
+      <td>14711424</td>
+      <td>Subdivision of Unit 1 to create 4No. units to operate for flexible Class E and/or drinking establishment uses (sui generis) and installation of new single door</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Conversion to Bar</td>
+      <td>SPORT AND LEISURE</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=QSXI4NJBLQ900&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4764288</td>
+      <td>15825085</td>
+      <td>Enabling works associated with office development proposed under 22/00775/RM</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2024-02-28</td>
+      <td>NaN</td>
+      <td>Office</td>
+      <td>COMMERCIAL</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=S8H5HKJBLF200&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3196446</td>
+      <td>14512966</td>
+      <td>Additional roof top plant and equipment</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Additional roof top plant and equipme...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=QLJDK9JBN3900&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2756771</td>
+      <td>14063909</td>
+      <td>Reserved matters application for a part ten storey and part eleven storey office (B1a) development with flexible commercial ground floor (A1/A2/A3/A4/A5/D1/D2/B1a) uses together with basement gym, parking and associated landscaping</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Commercial Development</td>
+      <td>COMMERCIAL</td>
+      <td>700.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=Q0JCV9JBJ0S00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3139842</td>
+      <td>14454186</td>
+      <td>Change of use of part basement car park to additional storerooms; Erection of 2no. flagpoles to front hardstanding area</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Change of use of part basement car pa...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=QJKJHHJBGW300&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2886228</td>
+      <td>14194039</td>
+      <td>Replacement of existing glazed panel in a curtain wall with louvred panel</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Replacement of existing glazed panel ...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=Q70UE0JBHW600&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3980477</td>
+      <td>15308808</td>
+      <td>Listed building application for repairs and alterations to former railway lifting tower including landscaping and associated works</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Landscaping</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RI4WTMJBKU100&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4714806</td>
+      <td>15734308</td>
+      <td>Change of use from offices (Class E(g) to accountancy training (Class F1)</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2024-02-01</td>
+      <td>NaN</td>
+      <td>Change of use from offices (Class E(g...</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=S0NTAIJBG7300&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>4714806</td>
+      <td>15734308</td>
+      <td>Change of use from offices (Class E(g) to accountancy training (Class F1)</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2024-02-01</td>
+      <td>NaN</td>
+      <td>Conversion to Accountancy Training Facuility</td>
+      <td>EDUCATION</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=S0NTAIJBG7300&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3711340</td>
+      <td>15037284</td>
+      <td>Reserved matters application (details of appearance, landscaping, layout and scale) twelve-storey building, with offices on the upper floors and flexible commercial uses on the ground floor, along with basement parking and associated public realm works pu</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Mixed Use Development</td>
+      <td>COMMERCIAL</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=R6PVKTJBFNW00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3129445</td>
+      <td>14443439</td>
+      <td>Flexible change of use of Unit 2 to allow for either commercial, business and service and drinking establishment uses</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Conversion to Drinking Establishment</td>
+      <td>SPORT AND LEISURE</td>
+      <td>300.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=QJ7KVVJBIZK00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3786663</td>
+      <td>15113439</td>
+      <td>Change of use form vacant unit to commercial, business and service (Use Class E); Installation of new single door and removal of old door opening</td>
+      <td>DETAILED PLANS APPROVED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Conversion to Office</td>
+      <td>COMMERCIAL</td>
+      <td>200.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=R9K44DJBMY700&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>2776132</td>
+      <td>14083363</td>
+      <td>Determination for the demolition of a bin store to rear</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Demolition of Bin Store</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=Q30JYXJBIWG00&activeTab=summary</td>
+    </tr>
+    <tr>
+      <td>3980582</td>
+      <td>15308913</td>
+      <td>Repairs and alterations to former railway lifting tower including landscaping and associated works</td>
+      <td>DETAILED PLANS SUBMITTED</td>
+      <td>2023-03-21</td>
+      <td>NaN</td>
+      <td>Landscaping</td>
+      <td>OTHER</td>
+      <td>100.0</td>
+      <td>https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?keyVal=RI4WTGJBKU000&activeTab=summary</td>
+    </tr>
+  </tbody>
+</table>
+    <h4>5-2.　All Planning Applications in Leeds</h4>    
+    <p>The map below describes all the planning applications in Leeds.</p>    
+    <iframe src="all_applications.html" height="600" width="1000"></iframe>
+    
+
+</body>
+</html>
