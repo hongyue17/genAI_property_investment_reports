@@ -5,4 +5,4 @@ This group project, part of the "Creative Coding for Urban Problems" module in m
 ![Prompt Setting](https://github.com/hongyue17/genAI_property_investment_reports/blob/main/prompt_setting.jpg)
 
 **Process becomes a system to enhance report generation**  
-![Process System](https://github.com/hongyue17/genAI_property_investment_reports/blob/main/prompt_setting.jpg)
+![Process System](https://github.com/hongyue17/genAI_property_investment_reports/blob/main/system.jpg)
